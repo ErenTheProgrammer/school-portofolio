@@ -1,0 +1,62 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 10px solid teal;
+  border-radius: 60px;
+}
+
+.title {
+  margin-top: -100px;
+  text-align: left;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+html {
+  background-image: linear-gradient(lightblue, lightskyblue);
+  font-family: sans-serif;
+  border: 2px solid teal;
+}
+
+h1, h2 {
+  font-family: cursive;
+  color: teal;
+}
+
+.profile-short-text {
+  flex: 1; 
+}
+
+.profile-short-text p {
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+h3 {
+  color: #004036;
+  font-size: 20px;
+}
+
+p {
+  color: #004036;
+  font-weight: bolder;
+}
+
+img {
+  border: 10px solid teal;
+}
